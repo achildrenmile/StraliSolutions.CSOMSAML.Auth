@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>StraliSolutions.CSOMSAML</id>
+    <version>1.0</version>
+    <title>$title$</title>
+    <authors>Michael Linder</authors>
+    <owners>Michael LInder</owners>
+    <licenseUrl>https://github.com/achildrenmile/StraliSolutions.CSOMSAML.Auth/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/achildrenmile/StraliSolutions.CSOMSAML.Auth</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The purporse of this library is to create an Authenticated ClientContext in an Claim-based ADFS/SAML environment.</description>
+    <releaseNotes>First Version for </releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>SharePoint On-Premises Claims ADFS SAML</tags>
+  </metadata>
+</package>

@@ -247,7 +247,7 @@ namespace StraliSolutions.CSOMSAML.Auth
             GC.SuppressFinalize(this);
         }
 
-        public void Dispose(bool disposing)
+        virtual protected void Dispose(bool disposing)
         {
             if (disposing)
             {
