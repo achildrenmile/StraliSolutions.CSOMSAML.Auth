@@ -8,7 +8,7 @@
     <owners>Michael LInder</owners>
     <licenseUrl>https://github.com/achildrenmile/StraliSolutions.CSOMSAML.Auth/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/achildrenmile/StraliSolutions.CSOMSAML.Auth</projectUrl>
-    <iconUrl></iconUrl>
+    <iconUrl>https://github.com/achildrenmile/StraliSolutions.CSOMSAML.Auth/blob/master/StraliSolutions.CSOMSAML.Auth/strali_favicon_dp.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The purporse of this library is to create an Authenticated ClientContext in an Claim-based ADFS/SAML environment.</description>
     <releaseNotes>First Version for </releaseNotes>
