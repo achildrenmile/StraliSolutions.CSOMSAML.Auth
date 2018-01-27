@@ -6,7 +6,7 @@ The approach works in the following way:
   2. the security token will be cached getting the authentication information from the auth cookies
   3. the ClientContext returned from ClaimClientContext will ensure that the security token is added on each http request
    
-#Testing the component
+# Testing the component
 <pre>
 using Microsoft.SharePoint.Client;
 using StraliSolutions.CSOMSAML.Auth;
