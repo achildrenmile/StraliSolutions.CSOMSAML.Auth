@@ -1,5 +1,5 @@
 # StraliSolutions.CSOMSAML.Auth
-The purporse of this library is to create an Authenticated ClientContext in an Claim-based ADFS/SAML environment. 
+The purporse of this library is to create an Authenticated ClientContext in an Claim-based SharePoint environment using Active Directoy Federation Services authentication via SAML. 
 
 The approach works in the following way:
   1. on calling ClaimClientContext.GetAuthenticatedContext the target teamsite will be opened in a web-browser component
