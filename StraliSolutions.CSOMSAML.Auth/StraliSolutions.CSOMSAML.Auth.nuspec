@@ -2,10 +2,10 @@
 <package >
   <metadata>
     <id>StraliSolutions.CSOMSAML</id>
-    <version>1.0</version>
+    <version>1.1</version>
     <title>$title$</title>
     <authors>Michael Linder</authors>
-    <owners>Michael LInder</owners>
+    <owners>Michael Linder</owners>
     <licenseUrl>https://github.com/achildrenmile/StraliSolutions.CSOMSAML.Auth/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/achildrenmile/StraliSolutions.CSOMSAML.Auth</projectUrl>
     <iconUrl>https://github.com/achildrenmile/StraliSolutions.CSOMSAML.Auth/blob/master/StraliSolutions.CSOMSAML.Auth/strali_favicon_dp.png</iconUrl>
