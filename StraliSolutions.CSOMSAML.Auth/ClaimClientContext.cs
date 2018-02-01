@@ -18,7 +18,7 @@ namespace StraliSolutions.CSOMSAML.Auth
         /// <param name="popUpWidth"></param>
         /// <param name="popUpHeight"></param>
         /// <returns></returns>
-        public static CookieCollection GetAuthenticatedCookies(string targetSiteUrl, int popUpWidth, int popUpHeight)
+        private static CookieCollection GetAuthenticatedCookies(string targetSiteUrl, int popUpWidth, int popUpHeight)
         {
 
                 CookieCollection authCookie = null;
@@ -28,6 +28,24 @@ namespace StraliSolutions.CSOMSAML.Auth
                 }
               
                 return authCookie;
+        }
+        /// <summary>
+        /// Displays a pop up to login the user. An authentication Cookie is returned if the user is sucessfully authenticated.
+        /// </summary>
+        /// <param name="targetSiteUrl"></param>
+        /// <param name="popUpWidth"></param>
+        /// <param name="popUpHeight"></param>
+        /// <returns></returns>
+        public static CookieCollection GetAuthenticatedCookies(string targetSiteUrl)
+        {
+
+            CookieCollection authCookie = null;
+            using (ClaimsWebAuth webAuth = new ClaimsWebAuth(targetSiteUrl, 0,0))
+            {
+                authCookie = webAuth.Show();
+            }
+
+            return authCookie;
         }
 
         /// <summary>
