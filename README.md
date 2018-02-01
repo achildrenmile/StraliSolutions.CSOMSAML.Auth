@@ -6,6 +6,8 @@ The approach works in the following way:
   2. the security token will be cached getting the authentication information from the auth cookies
   3. the ClientContext returned from ClaimClientContext will ensure that the security token is added on each http request
    
+Note: The library works by using the current user context. So, the user has to be logged on to a domain where ADFS SSO is configured. In case you need to switch the user's context or you don't have an ADFS SSO configuration in place, I recommend to use https://github.com/SharePoint/PnP-Sites-Core/blob/master/Core/SAML%20authentication.md.
+
 # Testing the component
 <pre>
 using Microsoft.SharePoint.Client;
