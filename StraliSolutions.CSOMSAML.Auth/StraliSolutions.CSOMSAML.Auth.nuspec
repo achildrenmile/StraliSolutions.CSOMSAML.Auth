@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>StraliSolutions.CSOMSAML</id>
-    <version>1.1</version>
+    <version>1.2</version>
     <title>$title$</title>
     <authors>Michael Linder</authors>
     <owners>Michael Linder</owners>
@@ -11,7 +11,7 @@
     <iconUrl>https://github.com/achildrenmile/StraliSolutions.CSOMSAML.Auth/blob/master/StraliSolutions.CSOMSAML.Auth/strali_favicon_dp.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The purporse of this library is to create an Authenticated ClientContext in a Claim-based SharePoint environment using Active Directoy Federation Services authentication via SAML.</description>
-    <releaseNotes>added support SharePoint Client library dependency</releaseNotes>
+    <releaseNotes>added support SharePoint Client library dependency. Added okieCollection GetAuthenticatedCookies(string targetSiteUrl). Added icon.</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>SharePoint On-Premises Claims ADFS SAML</tags>
   </metadata>
